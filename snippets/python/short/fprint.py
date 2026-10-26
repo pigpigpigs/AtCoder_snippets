@@ -1,0 +1,1 @@
+sys.stdin.write(f"{$0}\n")

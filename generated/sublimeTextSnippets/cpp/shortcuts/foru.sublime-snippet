@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+for (int i${1:Vache} = 0; i$1 < ${2:nb$1s}; i$1++) {
+	$0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foru</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope> 
+</snippet>

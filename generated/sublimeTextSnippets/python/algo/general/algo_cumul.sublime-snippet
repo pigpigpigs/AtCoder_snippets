@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+def cumul(l, inplace=False):
+	if not inplace: l = l[:]
+	for i in range(1, len(l)): l[i] += l[i-1]
+	return l
+
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>algo_cumul</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope> 
+</snippet>

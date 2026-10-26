@@ -1,0 +1,160 @@
+## python
+- **util**
+    - `util_collections`
+    - `util_points_geo`
+    - `util_sequences_str`
+    - `util_search`
+    - `util_combi`
+    - `util_math`
+- **short**
+    - `ford`
+    - `cin`
+    - `forr`
+    - `rr`
+    - `rint`
+    - `lrmint`
+    - `foru`
+    - `rmint`
+    - `fprint`
+    - `cout`
+    - `struct`
+    - `read_print`
+- **algo**
+    - `convex_hull`
+  - **general**
+      - `algo_merge_sort`
+      - `algo_dynamique`
+      - `algo_union_find`
+      - `algo_cumul`
+      - `algo_dicho`
+  - **graphs**
+      - `algo_dij`
+      - `algo_floyd_warshall`
+      - `algo_cfc`
+      - `algo_dfs`
+      - `algo_bfs`
+      - `algo_bellman_ford`
+  - **flows**
+      - `algo_max_matching`
+      - `algo_min_cut`
+      - `algo_min_cost_max_flow`
+      - `algo_max_flow`
+- **structs**
+    - `str_segtree_max`
+    - `str_deque`
+    - `str_heap`
+    - `str_segtree`
+    - `str_segtree_sum`
+    - `str_graph`
+    - `str_cartesian_tree`
+- **main**
+    - `mainMini`
+    - `main`
+- **extras**
+    - `str_cartesian_tree_extras`
+## cpp
+- **tools**
+    - `tool_reindexer`
+- **io**
+  - **read**
+      - `read_graph_pondere`
+      - `read_flow`
+      - `read_max_matching`
+      - `read_graph`
+      - `read_min_cost_flow`
+  - **convertion**
+      - `grid_to_flow`
+      - `grid_to_graph`
+- **algo**
+  - **general**
+      - `algo_union_find` : Union-Find algorithm
+        - *Defines*: `Union Find`
+      - `algo_merge_sort` : Merge Sort algorithme
+        - *Defines*: `mergerSort`
+        - *Documentation*: Can be adapted for any purpose (for exemple, any algorithm based on divide-to-conquer)
+      - `algo_dicho` : Dichotomy algorithm
+        - *Documentation*: This snippet is not a function and must be inserted directly into the code
+  - **maths**
+      - `math_primes` : Functions for quick access to common mathematical operations
+        - *Defines*: `crible_primes`, `genNPrimes`, `genNPrimesLli`, `genPrimesUnder`, `genPrimesUnderLli`
+        - *Documentation*: Include functions for prime numbers
+      - `math_usual` : Functions for quick access to common mathematical operations
+        - *Defines*: `pgcd`, `ppcm`, `genRange`, `divisorsOf`, `factorial`
+        - *Documentation*: Mathematical functions
+  - **graphs**
+      - `algo_tri_topo`
+      - `algo_dfs`
+      - `algo_contain_cycle`
+    - **shortest_path**
+        - `algo_remonte_dijkstra`
+        - `algo_dijkstra`
+        - `algo_remonte_bfs`
+        - `algo_bfs` : Algo de BFS
+        - `algo_bellman_ford`
+        - `algo_floyd_warshall`
+    - **flow_max_matching**
+        - `algo_min_cost_max_flow_slower`
+          - *Defines*: `getMinCostMaxFlow`
+        - `algo_min_cut_sparse`
+        - `algo_min_cut`
+        - `algo_flow_sparse`
+        - `algo_min_cost_max_flow`
+        - `algo_min_cost_max_flow_sparse`
+        - `algo_max_matching` : Maximum matching algorithm
+          - *Defines*: `findMatching`, `getMaxMatching`
+        - `algo_min_cost_max_flow_negative`
+        - `algo_flow` : Ford-Fulkerson algorithm with flow of size 2^k
+          - *Defines*: `pushFlow`, `getMaxFlow`
+          - *Documentation*: "flow" will contain the flow passing through an edge (positive or negative).
+  - **geometry**
+      - `geo_convex_hull`
+      - `geo_segs`
+      - `geo_shapes`
+      - `geo_rects`
+      - `geo_base`
+- **structs**
+    - `str_graph`
+    - `str_grid` : Array to represent a grid of char and usefull functions
+      - *Defines*: `grid`, `readGrid`, `getCellId`, `idToCell`, `isPosValid`
+    - `str_segtree`
+    - `str_carttree`
+    - `str_bigint`
+    - `str_pos` : Functions for manipulating 2D integer positions
+      - *Defines*: `Pos`, `NB_MOVES`, `moves`, `movesDir`, `getMoveId`, `isPosValid`
+  - **segtrees**
+      - `segtree_template_old`
+      - `segtree_template`
+      - `segtree_sum`
+      - `segtree_max`
+- **shortcuts**
+    - `vv`
+    - `2pb`
+    - `reresize`
+    - `print`
+    - `infop`
+    - `foriel`
+    - `forel`
+    - `rint`
+    - `lambda`
+    - `ssize`
+    - `rvar`
+    - `testsfor`
+    - `ford`
+    - `foru`
+- **definitions**
+    - `def_consts`
+    - `def_types`
+- **contest_scpecific**
+    - `battleDev_main`
+    - `codejam_main`
+- **utility**
+    - `usaco`
+    - `bincludes`
+    - `mainDefault_iostream`
+    - `includes`
+    - `mainSimple`
+    - `cout_anything`
+    - `sync_false`
+    - `islocal`
+    - `mainDefault`
+    - `string_utility`

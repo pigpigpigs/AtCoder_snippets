@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+def get_permuts(l,r=None): return list(permutations(l, r))
+
+def next_permutation(l):
+	i=len(l)-2
+	while i>=0 and l[i+1]<=l[i]:i-=1
+	if i<0: return l[::-1]
+	j=i
+	while j+1<len(l) and l[j+1]>=l[i]:j+=1
+	return l[:i] + [l[j]] + l[j+1:][::-1] + ([l[i]] if i-j else []) + l[i+1:j][::-1]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>util_combi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope> 
+</snippet>
